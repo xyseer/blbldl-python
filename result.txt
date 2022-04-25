@@ -1,0 +1,157 @@
+
+
+# Form implementation generated from reading ui file 'F3.ui'
+
+
+
+
+
+
+
+
+
+
+
+
+
+        blbldl.resize(725, 600)
+        blbldl.setMinimumSize(QtCore.QSize(725, 600))
+        blbldl.setMaximumSize(QtCore.QSize(725, 600))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        self.modeGroup = QtWidgets.QGroupBox(self.centralwidget)
+        self.modeGroup.setGeometry(QtCore.QRect(410, 40, 281, 81))
+        self.modeGroup.setObjectName("modeGroup")
+        self.video = QtWidgets.QCheckBox(self.modeGroup)
+        self.video.setGeometry(QtCore.QRect(30, 40, 71, 16))
+        self.video.setChecked(True)
+        self.video.setObjectName("video")
+        self.ass = QtWidgets.QCheckBox(self.modeGroup)
+        self.ass.setGeometry(QtCore.QRect(150, 40, 71, 16))
+        self.ass.setObjectName("ass")
+        self.Aria2_Group = QtWidgets.QGroupBox(self.centralwidget)
+        self.Aria2_Group.setGeometry(QtCore.QRect(410, 150, 281, 111))
+        self.Aria2_Group.setObjectName("Aria2_Group")
+        self.thread_number = QtWidgets.QSpinBox(self.Aria2_Group)
+        self.thread_number.setGeometry(QtCore.QRect(110, 25, 42, 22))
+        self.thread_number.setMaximum(32)
+        self.thread_number.setProperty("value", 16)
+        self.thread_number.setObjectName("thread_number")
+        self.thread = QtWidgets.QLabel(self.Aria2_Group)
+        self.thread.setGeometry(QtCore.QRect(60, 30, 54, 12))
+        self.thread.setObjectName("thread")
+        self.aria2_command_lable = QtWidgets.QLabel(self.Aria2_Group)
+        self.aria2_command_lable.setGeometry(QtCore.QRect(30, 60, 141, 16))
+        self.aria2_command_lable.setObjectName("aria2_command_lable")
+        self.aria2_command = QtWidgets.QLineEdit(self.Aria2_Group)
+        self.aria2_command.setGeometry(QtCore.QRect(30, 80, 231, 20))
+        self.aria2_command.setObjectName("aria2_command")
+        self.ffmpeg_Group = QtWidgets.QGroupBox(self.centralwidget)
+        self.ffmpeg_Group.setGeometry(QtCore.QRect(410, 280, 281, 71))
+        self.ffmpeg_Group.setObjectName("ffmpeg_Group")
+        self.ffmpeg_command_lable_2 = QtWidgets.QLabel(self.ffmpeg_Group)
+        self.ffmpeg_command_lable_2.setGeometry(QtCore.QRect(30, 20, 141, 16))
+        self.ffmpeg_command_lable_2.setObjectName("ffmpeg_command_lable_2")
+        self.ffmpeg_command_2 = QtWidgets.QLineEdit(self.ffmpeg_Group)
+        self.ffmpeg_command_2.setGeometry(QtCore.QRect(30, 40, 231, 20))
+        self.ffmpeg_command_2.setObjectName("ffmpeg_command_2")
+        self.path_Group = QtWidgets.QGroupBox(self.centralwidget)
+        self.path_Group.setGeometry(QtCore.QRect(410, 380, 281, 131))
+        self.path_Group.setObjectName("path_Group")
+        self.directory = QtWidgets.QLabel(self.path_Group)
+        self.directory.setGeometry(QtCore.QRect(30, 20, 54, 12))
+        self.directory.setObjectName("directory")
+        self.path = QtWidgets.QLineEdit(self.path_Group)
+        self.path.setGeometry(QtCore.QRect(30, 40, 231, 20))
+        self.path.setObjectName("path")
+        self.Aria2_path_label = QtWidgets.QLabel(self.path_Group)
+        self.Aria2_path_label.setGeometry(QtCore.QRect(30, 70, 61, 16))
+        self.Aria2_path_label.setObjectName("Aria2_path_label")
+        self.FFmpeg_path_label = QtWidgets.QLabel(self.path_Group)
+        self.FFmpeg_path_label.setGeometry(QtCore.QRect(30, 100, 71, 16))
+        self.FFmpeg_path_label.setObjectName("FFmpeg_path_label")
+        self.Aria2_path = QtWidgets.QLineEdit(self.path_Group)
+        self.Aria2_path.setGeometry(QtCore.QRect(100, 70, 161, 20))
+        self.Aria2_path.setObjectName("Aria2_path")
+        self.ffmpeg_path = QtWidgets.QLineEdit(self.path_Group)
+        self.ffmpeg_path.setGeometry(QtCore.QRect(100, 100, 161, 20))
+        self.ffmpeg_path.setObjectName("ffmpeg_path")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        self.modeGroup.setTitle(_translate("blbldl", "下载Mode"))
+        self.video.setText(_translate("blbldl", "video"))
+        self.ass.setText(_translate("blbldl", "ass弹幕"))
+        self.Aria2_Group.setTitle(_translate("blbldl", "Aria2设定"))
+        self.thread.setText(_translate("blbldl", "线程数："))
+        self.aria2_command_lable.setText(_translate("blbldl", "command(高级选项，慎用)"))
+        self.aria2_command.setPlaceholderText(_translate("blbldl", "请输入Aria2指令，url请用%url%代替"))
+        self.ffmpeg_Group.setTitle(_translate("blbldl", "ffmpeg设定"))
+        self.ffmpeg_command_lable_2.setText(_translate("blbldl", "command(高级选项，慎用)"))
+        self.ffmpeg_command_2.setPlaceholderText(_translate("blbldl", "请输入ffmpeg指令，仅支持添加参数"))
+        self.path_Group.setTitle(_translate("blbldl", "目录设定"))
+        self.directory.setText(_translate("blbldl", "下载目录："))
+        self.path.setText(_translate("blbldl", "./result"))
+        self.Aria2_path_label.setText(_translate("blbldl", "Aria2路径："))
+        self.FFmpeg_path_label.setText(_translate("blbldl", "ffmpeg路径："))
+        self.Aria2_path.setPlaceholderText(_translate("blbldl", "Default"))
+        self.ffmpeg_path.setPlaceholderText(_translate("blbldl", "Default"))
+        self.Advance.setText(_translate("blbldl", "<<收起"))

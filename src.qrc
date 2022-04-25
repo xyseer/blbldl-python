@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="q">
+    <file>./src/ui1w.png</file>
+    <file>./src/ui2w.png</file>
+    <file>./src/ui3w.png</file>
+    <file>./src/about.png</file>
+    <file>./src/电视粉.png</file>
+  </qresource>
+</RCC>
