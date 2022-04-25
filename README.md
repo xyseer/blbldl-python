@@ -1,6 +1,7 @@
-## blbldl-python
+# blbldl-python
 
 made by xyseer
+
 本程序使用pyqt5编写，并使用了danmu2ass进行弹幕下载
 感谢danmu2ass作者以及aria2c，ffmpeg两款工具的开发作者！
 
@@ -18,9 +19,10 @@ made by xyseer
 
 ==========================================================
 
-## blbldl-python
+# blbldl-python
 
 made by xyseer
+
 It was developed by using pyqt5 as its framework and *danmu2ass* tool to download danmu.
 Thanks to the authors of danmu2ass, aria2c and ffmpeg!
 
